@@ -1,0 +1,60 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center the main content */
+    align-items: flex-start; /* Align items at the start */
+    max-width: 1000px; /* Set a maximum width for your container */
+    margin: 0 auto; /* Center the container itself */
+}
+
+.main-content {
+    flex: 1; /* Take available space */
+    padding: 20px; /* Add some padding */
+    max-width: 800px; /* Optional: set a max width for main content */
+}
+
+.advertisement {
+    width: 300px; /* Set a fixed width for the ad section */
+    padding: 20px; /* Add some padding */
+    background-color: #f0f0f0; /* Optional: Background color for ads */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Shadow for depth */
+}
+/*nav code*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #288b41;
+}
+.active {
+    background-color: #44c2d8;
+}
+
+.ad-container{
+    
+    float: right;
+
+}
